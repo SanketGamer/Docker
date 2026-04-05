@@ -1,0 +1,18 @@
+
+As an application/full stack developer, you need to be comfortable with the following terminologies -
+Docker Engine
+Docker CLI - Command line interface
+Docker registry
+
+1. Docker Engine
+Docker Engine is an open-source containerization technology that allows developers to package applications into container
+Containers are standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment.
+
+2. Docker CLI
+The command line interface lets you talk to the docker engine and lets you start/stop/list containers
+docker run -d -p 27017:27017 mongo
+Docker cli is not the only way to talk to a docker engine. You can hit the docker REST API to do the same things
+
+3. Docker registry
+The docker registry is how Docker makes money. 
+It is similar to github, but it lets you push images rather than sourcecode
