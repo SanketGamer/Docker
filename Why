@@ -1,0 +1,26 @@
+
+1. Why Docker?
+Docker/containers are important for a few reasons - 
+1. Kubernetes/Container orchestration
+2. Running processes in isolated environments
+3. Starting projects/auxilary services locally
+
+2. Containerization
+
+What are containers
+Containers are a way to package and distribute software applications in a way that makes them easy to deploy and run consistently across different environments. 
+They allow you to package an application, along with all its dependencies and libraries, into a single unit that can be run on any machine with a container runtime, such as Docker.
+
+Why containers
+Everyone has different Operating systems
+Steps to run a project can vary based on OS
+Extremely harder to keep track of dependencies as project grows
+
+Benefits of using containers
+Let you describe your configuration in a single file
+Can run in isolated environments
+Makes Local setup of OS projects a breeze
+Makes installing auxiliary services/DBs easy
+
+ref --  docker run -d -p 27017:27017 mongo
+ 
